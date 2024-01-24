@@ -1,0 +1,10 @@
+version: "3"
+services:
+    pingerbot-home:
+      image: apels1n/pingerbot:latest
+      environment:
+        - token=
+        - chat_id=
+        - host_title=
+        - host=
+        - timeout=
