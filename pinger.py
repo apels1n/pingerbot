@@ -1,5 +1,6 @@
 import subprocess
 
+
 class Pinger():
     def __init__(self, host, timeout = None):
         self.__host = host
