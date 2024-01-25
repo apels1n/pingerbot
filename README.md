@@ -1,8 +1,8 @@
-####This telegram bot can help you monitor the network availability of important hosts. Or it can be used to check for power availability.
+#### This telegram bot can help you monitor the network availability of important hosts. Or it can be used to check for power availability.
 
 >The bot is deployed in a docker container, which allows you to have several different instances independent of each other, to check different network hosts, with a different set of custom phrases for each individual instance
 
-##Configuration Steps:
+## Configuration Steps:
 
 1. Install Docker
 2. Download and edit `compose.yaml` file. Enter the following information into it:
@@ -27,6 +27,6 @@
     docker compose up -d
     ```
 
-##Example Screenshot
+## Example Screenshot
 
 ![Picture](https://i.ibb.co/nBh6cg8/photo-2024-01-25-21-57-04.jpg)
