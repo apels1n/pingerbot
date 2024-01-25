@@ -2,9 +2,9 @@ import telebot
 
 class TelegramBot():
     def __init__(self, token, chat_id):
-        self._token = token
-        self._chat_id = chat_id
-        self._bot = telebot.TeleBot(token)
+        self.__token = token
+        self.__chat_id = chat_id
+        self.__bot = telebot.TeleBot(self.__token)
 
     def sendMessage(self, text):
-        self._bot.send_message(chat_id=self._chat_id, text=text, )
+        self.__bot.send_message(chat_id=self.__chat_id, text=text, )
