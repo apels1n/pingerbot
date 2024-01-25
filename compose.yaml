@@ -6,7 +6,7 @@ services:
         - token=
         - chat_id=
         - host_title=
-        - host_id=
+        - host_ip=
         - timeout=
         - host_up_msg=
         - host_down_msg=
